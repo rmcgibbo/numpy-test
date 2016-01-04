@@ -1,0 +1,10 @@
+language: objective-c
+os: osx
+
+install:
+  - brew update
+  - brew install python numpy
+
+script:
+  - which python
+  - python nptest
