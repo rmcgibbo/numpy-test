@@ -2,9 +2,9 @@ language: objective-c
 os: osx
 
 install:
-  - sudo easy_install pip
-  - sudo pip install numpy
+  - sudo pip install -U -I pip
+  - sudo pip install -U -I numpy
   
 script:
   - which python
-  - python nptest
+  - python nptest.py
