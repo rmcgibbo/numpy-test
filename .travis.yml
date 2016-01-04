@@ -7,5 +7,6 @@ install:
   
 script:
   - system_profiler -detailLevel basic | grep -A20 'Hardware Overview:'
+  - sysctl -a | grep machdep.cpu
   - which python
   - python nptest.py
