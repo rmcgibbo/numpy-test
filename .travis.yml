@@ -6,5 +6,6 @@ install:
   - sudo pip install -U -I numpy
   
 script:
+  - system_profiler -detailLevel basic | grep -A20 'Hardware Overview:'
   - which python
   - python nptest.py
