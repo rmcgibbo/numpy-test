@@ -2,9 +2,8 @@ language: objective-c
 os: osx
 
 install:
-  - brew tap homebrew/python
-  - brew install python numpy
-
+  - sudo pip install numpy
+  
 script:
   - which python
   - python nptest
