@@ -18,3 +18,4 @@ def test_eig_vs_eigh_above_560():
         assert_array_almost_equal(w1, w3)
 
 test_eig_vs_eigh_above_560()
+print('Finished')
