@@ -2,7 +2,7 @@ language: objective-c
 os: osx
 
 install:
-  - brew update
+  - brew tap homebrew/python
   - brew install python numpy
 
 script:
